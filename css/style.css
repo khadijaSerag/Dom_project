@@ -1,0 +1,38 @@
+
+.item {
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.item-title{
+    bottom: 20px;
+    left: 5%;
+    background-color: white;
+    width: 90%;
+}
+#lightBoxContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    display: none;
+}
+#lightBoxItem{
+    width: 50%;
+    height: 450px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    position: absolute;
+}
+#lightBoxItem i{
+    margin: 20px;
+    cursor: pointer;
+    font-size: 23px;
+}
+#close{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
